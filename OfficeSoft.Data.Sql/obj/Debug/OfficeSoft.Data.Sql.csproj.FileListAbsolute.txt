@@ -1,0 +1,5 @@
+C:\Users\steve_m\Documents\Visual Studio 2008\Projects\OfficeSoft.Data.Sql\OfficeSoft.Data.Sql\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\steve_m\Documents\Visual Studio 2008\Projects\OfficeSoft.Data.Sql\OfficeSoft.Data.Sql\bin\Debug\OfficeSoft.Data.Sql.exe
+C:\Users\steve_m\Documents\Visual Studio 2008\Projects\OfficeSoft.Data.Sql\OfficeSoft.Data.Sql\bin\Debug\OfficeSoft.Data.Sql.pdb
+C:\Users\steve_m\Documents\Visual Studio 2008\Projects\OfficeSoft.Data.Sql\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.Sql.exe
+C:\Users\steve_m\Documents\Visual Studio 2008\Projects\OfficeSoft.Data.Sql\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.Sql.pdb

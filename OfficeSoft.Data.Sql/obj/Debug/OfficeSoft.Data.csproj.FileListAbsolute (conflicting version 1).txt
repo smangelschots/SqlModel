@@ -1,0 +1,5 @@
+C:\Projects\OSOFT\OfficeSoft.Data.Sql\bin\Debug\OfficeSoft.Data.dll
+C:\Projects\OSOFT\OfficeSoft.Data.Sql\bin\Debug\OfficeSoft.Data.pdb
+C:\Projects\OSOFT\OfficeSoft.Data.Sql\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\OSOFT\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.dll
+C:\Projects\OSOFT\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.pdb

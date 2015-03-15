@@ -1,0 +1,16 @@
+﻿<#@ template language="C#" debug="true"  #>
+<#@ output extension=".cs" #>
+<#@ import namespace="OfficeSoft.Data" #>
+<#@ parameter name="namespacename" type="System.String" #>
+<#@ parameter name="classname" type="System.String" #>
+<#@ parameter name="table" type="OfficeSoft.Data.TableModel" #>
+using OfficeSoft.Common.Contracts;
+using OfficeSoft.Constructor.Entities;
+
+namespace <#= namespacename #>
+{
+    public interface I<#= classname #>Repository : IDataRepository<<#= table.Name #>>
+    {
+    }
+}
+

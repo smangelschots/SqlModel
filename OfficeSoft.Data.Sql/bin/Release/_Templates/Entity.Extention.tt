@@ -1,0 +1,20 @@
+﻿<#@ template language="C#" debug="true"  #>
+<#@ output extension=".cs" #>
+<#@ import namespace="OfficeSoft.Data" #>
+<#@ parameter name="namespacename" type="System.String" #>
+<#@ parameter name="classname" type="System.String" #>
+<#@ parameter name="table" type="OfficeSoft.Data.TableModel" #>
+
+using System;
+using System.Runtime.Serialization;
+using OfficeSoft.Common.Contracts;
+using OfficeSoft.Common.Core;
+
+namespace <#= this.namespacename #>
+{
+	public partial class <#= this.classname #>
+	{
+		public void Initialize(){}
+	}
+}
+

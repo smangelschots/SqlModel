@@ -1,0 +1,22 @@
+﻿<#@ template language="C#" debug="true"  #>
+<#@ output extension=".cs" #>
+<#@ import namespace="OfficeSoft.Data" #>
+<#@ parameter name="namespacename" type="System.String" #>
+<#@ parameter name="classname" type="System.String" #>
+<#@ parameter name="table" type="OfficeSoft.Data.TableModel" #>
+using System.Data.Entity.ModelConfiguration;
+using OfficeSoft.Constructor.Entities;
+
+namespace <#= this.namespacename #>
+{
+    public class <#= this.classname #> : EntityTypeConfiguration<<#= table.Name #>>
+    {
+        public <#= this.classname #>()
+        {
+			<# foreach (var key in table.GetPrimaryKeys()) { #>
+            HasKey(e => e.<#= key.Name #>);
+			<# } #>
+			Ignore(e => e.EntityId);
+        }
+    }
+}
