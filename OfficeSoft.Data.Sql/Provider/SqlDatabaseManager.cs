@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using Microsoft.SqlServer.Management.Smo;
 using Microsoft.SqlServer.Management.Common;
-using Microsoft.SqlServer.Management.Smo.Agent;
+
 using System.Data;
-using Microsoft.SqlServer.Server;
 
 namespace OfficeSoft.Data.Sql
 {
+    [Serializable]
     public class SqlDatabaseManager : IDatabaseManager
     {
         private ServerConnection _conn;
@@ -52,7 +52,7 @@ namespace OfficeSoft.Data.Sql
         {
             foreach (Database item in _databaseServer.Databases)
             {
-                if (item.Name.Equals(databasename))
+                if (item.Name.ToLower().Equals(databasename.ToLower()))
                     return item;
             }
             return null;
@@ -63,7 +63,7 @@ namespace OfficeSoft.Data.Sql
             {
                 foreach (Table item in _selectedDatabase.Tables)
                 {
-                    if (item.Name.Equals(tabelname))
+                    if (item.Name.ToLower().Equals(tabelname.ToLower()))
                     {
                         return item;
                     }
