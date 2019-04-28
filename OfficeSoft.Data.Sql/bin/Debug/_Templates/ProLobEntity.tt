@@ -1,0 +1,52 @@
+﻿<#@ template  debug="true" hostSpecific="true" #>
+<#@ output extension=".cs" #>
+<#@ Assembly Name="System.Core" #>
+<#@ Assembly Name="System.Windows.Forms" #>
+
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #> 
+<#@ import namespace="OfficeSoft.ProLob.DataLayer" #>
+
+<#@ parameter name="namespacename" type="System.String" #>
+<#@ parameter name="classname" type="System.String" #>
+<#@ parameter name="table" type="OfficeSoft.ProLob.DataLayer.EntityModel" #>
+
+using System;
+using System.Runtime.Serialization;
+using OfficeSoft.Common.Contracts;
+using OfficeSoft.Common.Core;
+using OfficeSoft.ProLob.DataLayer;
+using OfficeSoft.ProLob.DataLayer.Provider;
+
+namespace <#= this.namespacename #>
+{
+	[DataContract]
+	public partial class <#= this.classname #> : EntityBase, IIdentifiableEntity
+	{
+
+		public  <#= this.classname #>(){
+			  Initialize();
+		}
+
+	<# foreach (var item in table.Fields){#>
+	[DataMember]
+		public <#= item.DataType.CSharpType.Name #> <#= item.Name #> {get; set;}
+	<#} #>
+
+	<#foreach(var key in table.GetPrimaryKeys()) { #>
+	public Guid EntityId
+		{
+			get { return <#= key.Name #>; }
+			set { <#= key.Name  #> = value; }
+		} 
+	<# } #>
+
+	<# foreach(var key in table.ForeignKeyList){ #>
+	public <#= key.ReferencedTable #> <#= key.ReferencedTable #> {get; set;} 
+	<# } #>
+}
+}

@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>OfficeSoft.Data</RootNamespace>
     <AssemblyName>OfficeSoft.Data</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -74,6 +74,10 @@
     <Reference Include="MySql.Data, Version=6.9.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\MySql.Data.6.9.3\lib\net20\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="OfficeSoft.Common.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Binaries\OfficeSoft.Common.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -139,12 +143,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Contracts\OfficeSoft.Common.Contracts\OfficeSoft.Common.Contracts.csproj">
-      <Project>{b0d3fc66-248f-49f7-9d80-8ec8151877d5}</Project>
-      <Name>OfficeSoft.Common.Contracts</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +152,7 @@
     <Content Include="Binaries\Microsoft.SqlServer.SmoExtended.dll" />
     <Content Include="Binaries\Microsoft.SqlServer.SqlEnum.dll" />
     <Content Include="Binaries\MySql.Data.dll" />
+    <Content Include="Binaries\OfficeSoft.Common.Contracts.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
