@@ -24,7 +24,6 @@ I:\Projects\TS\OfficeSoft\OfficeSoft.Data.Sql\bin\Debug\OfficeSoft.Common.Contra
 I:\Projects\TS\OfficeSoft\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.csprojResolveAssemblyReference.cache
 I:\Projects\TS\OfficeSoft\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.dll
 I:\Projects\TS\OfficeSoft\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.pdb
-C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.csproj.CoreCompileInputs.cache
 C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\_Templates\Context.tt
 C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\_Templates\CrudEntity.Extention.tt
 C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\_Templates\CrudEntity.tt
@@ -44,6 +43,15 @@ C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\Microsoft.SqlServer.S
 C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
 C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\MySql.Data.dll
 C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\OfficeSoft.Common.Contracts.dll
+C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.csproj.CoreCompileInputs.cache
 C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.csproj.CopyComplete
 C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.dll
 C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.pdb
+C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\Microsoft.SqlServer.Diagnostics.STrace.dll
+C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\bin\Debug\Microsoft.SqlServer.SqlTDiagM.dll
+C:\Documents\GitHub\SqlModel\OfficeSoft.Data.Sql\obj\Debug\OfficeSoft.Data.csprojAssemblyReference.cache
